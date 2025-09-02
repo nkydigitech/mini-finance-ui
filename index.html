@@ -1323,12 +1323,13 @@ Bootstrap 5 HTML CSS Template
     </body>
 </html>
 <footer style="text-align:center; font-size:12px; padding:10px; background:#f1f1f1;">
-  Mini Finance v1.0 — Deployed on <span id="04 Sep 2025"></span> — By Nkechi Ahanonye
+  Mini Finance v1.0 — Deployed on <span id="deploy-date"></span> — By Nkechi Ahanonye
 </footer>
 
 <script>
   const today = new Date();
-  today.setDate(today.getDate() + 1); // add 1 day for tomorrow
+  today.setDate(today.getDate() + 1); // tomorrow
   const options = { day: '2-digit', month: 'short', year: 'numeric' };
   document.getElementById('deploy-date').textContent = today.toLocaleDateString('en-GB', options);
 </script>
+
