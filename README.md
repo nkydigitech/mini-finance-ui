@@ -151,3 +151,59 @@ Day 5: Final touches, retrospective notes, and demo prep
 This project was powered by the teachings of Pravin Mishra, a great AWS DevOps guru, whose mentorship shaped my understanding and confidence in DevOps practices.
 
 🔥 Built with love, persistence, and curiosity by Nkechi Ahanonye.
+=======
+# Mini Finance UI
+
+A simple job listing web app deployed on AWS EC2.  
+This project is part of my DevOps & Cloud Engineering journey, where I practice version control, CI/CD basics, and cloud deployments step by step.  
+
+This DevOps class is powered by **Pravin Mishra**, a great AWS DevOps Guru, whose mentorship has guided me in building confidence and skill in real-world DevOps practices.  
+
+---
+
+## 🚀 Project Setup
+- Frontend files (HTML, CSS, JS) hosted on **AWS EC2 (Ubuntu 24.04)**
+- Web server: **Nginx**
+- Source code managed with **Git + GitHub**
+- Deployments done manually via **Git push + copy to EC2**
+- Health check page: `/healthz.html`
+
+---
+
+## 📅 Daily Progress
+
+### ✅ Day 1
+- Cloned starter template into EC2  
+- Initialized Git repository and pushed to GitHub  
+- Deployed first version of the website on EC2  
+
+### ✅ Day 2
+- Created `healthz.html` file for status checks  
+- Verified accessibility via `curl http://<EC2-IP>/healthz.html`  
+- Updated README with progress notes  
+
+### ✅ Day 3
+- Hardcoded footer across HTML pages with deployment date:  
+  *Mini Finance v1.0 | Deployed on 04 Sep 2025 | By Nkechi Ahanonye*  
+- Staged, committed, and pushed changes to GitHub  
+- Synced files to EC2 and confirmed deployment  
+
+### ✅ Day 4
+- Added commit hash and `/healthz.html` for verification  
+- Browser and `curl` evidence captured to show app was responding correctly  
+- Jira story updated with acceptance criteria, subtasks, and comments  
+
+### ✅ Day 5
+- Prepared README with full project history  
+- Captured demo video of app running live on EC2  
+- Project fully documented and submitted  
+
+---
+
+## 🔎 Verification Evidence
+
+- **Browser check:** EC2 public IP displays Mini Finance UI  
+- **Health check:**  
+  ```bash
+  curl http://<EC2-IP>/healthz.html
+
